@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.StatisticServiceTest" time="0.181" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.StatisticServiceTest" time="0.084" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\saint\AppData\Local\Temp\surefire9306123364240628413\surefirebooter10983825160449625649.jar C:\Users\saint\AppData\Local\Temp\surefire9306123364240628413 2021-02-15T23-17-24_890-jvmRun1 surefire3049351265409253684tmp surefire_013755856909235073452tmp"/>
+    <property name="sun.java.command" value="C:\Users\saint\AppData\Local\Temp\surefire4524033083016498023\surefirebooter17157601899996893814.jar C:\Users\saint\AppData\Local\Temp\surefire4524033083016498023 2021-02-16T18-25-09_493-jvmRun1 surefire14081131042991112900tmp surefire_07392204828591820677tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\IdeaProjects\CI\target\test-classes;C:\IdeaProjects\CI\target\classes;C:\Users\saint\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\saint\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\saint\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\saint\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\saint\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\saint\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\saint\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\saint\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\saint\AppData\Local\Temp\surefire9306123364240628413\surefirebooter10983825160449625649.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\saint\AppData\Local\Temp\surefire4524033083016498023\surefirebooter17157601899996893814.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.9.1+1"/>
@@ -61,5 +61,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="findMax" classname="ru.netology.StatisticServiceTest" time="0.085"/>
+  <testcase name="findMax" classname="ru.netology.StatisticServiceTest" time="0.061"/>
+  <testcase name="findMax2" classname="ru.netology.StatisticServiceTest" time="0"/>
 </testsuite>
